@@ -10,7 +10,7 @@ function Board() {
         state.board,
         state.getBoard,
         state.setBoardState,
-        state.updateTodoInDB
+        state.updateTask
     ])
 
     useEffect(() => {
